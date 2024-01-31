@@ -1,0 +1,205 @@
+.designathon-wrapper-main {
+  margin-top: 6.4vw;
+  margin-bottom: 0px;
+  padding: 25px auto 0px auto;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+.home-designaton {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1%;
+  width: 100%;
+}
+.home-designaton-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding: 8% 0% 8% 10vw;
+  align-items: center;
+}
+.designathon-header-content {
+  display: flex;
+  flex-direction: column;
+}
+.designathon-header-content > :nth-child(1) {
+  font-size: 3vw;
+  font-weight: 300;
+  font-family: "NeueMachinaRegular";
+  line-height: 0.95;
+}
+.designathon-header-content > :nth-child(2) {
+  font-size: 5.26vw;
+  font-family: "NeueMachinaUltrabold";
+  line-height: 0.95;
+}
+.designathon-header-content > .by-code {
+  font-size: 2.5vw;
+  align-self: flex-end;
+  font-family: "NeueMachinaRegular";
+  line-height: 0.95;
+}
+.designathon-header-dates {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.designathon-header-dates > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.designathon-header-dates > div > h2 {
+  font-size: 3vw;
+  background: linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-family: "NeueMachinaUltrabold";
+}
+.designathon-header-dates > div > p {
+  font-size: 1.3vw;
+  font-family: "NeueMachinaUltrabold";
+}
+.designathon-person-video > video {
+  width: 50vw;
+  height: auto;
+  justify-self: right;
+}
+.designathon-person-video > img {
+  width: 50vw;
+  height: auto;
+  justify-self: right;
+}
+.space-creator {
+  display: none;
+}
+@media screen and (max-width: 1130px) {
+  .home-designaton-left > :nth-child(3) {
+    position: fixed;
+    bottom: 6%;
+
+    z-index: 9999;
+  }
+  .designathon-header-dates > div > h2 {
+    font-size: 3.5vw;
+  }
+  .designathon-header-dates > div > p {
+    font-size: 2.2vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .designathon-wrapper-main {
+    margin-top: 10.7vw;
+  }
+}
+@media screen and (max-width: 730px) {
+  .designathon-wrapper-main {
+    margin-top: 14.7vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .designathon-wrapper-main {
+    margin-top: 17.7vw;
+  }
+  .home-designaton {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .designathon-person-video > video {
+    width: 90%;
+    height: auto;
+    justify-self: right;
+  }
+  .designathon-header-dates {
+    width: 100%;
+    padding: 0px;
+  }
+  .designathon-person-video > img {
+    width: 90%;
+    height: auto;
+    justify-self: right;
+  }
+  .home-designaton-left {
+    justify-content: space-between;
+    width: 100%;
+    padding: 8% 5vw 8% 10vw;
+  }
+  .designathon-header-dates > div > h2 {
+    font-size: 5.5vw;
+  }
+  .designathon-header-dates > div > p {
+    font-size: 3.2vw;
+  }
+  .designathon-header-content {
+    margin-bottom: 1.5vw;
+    align-self: flex-end;
+  }
+  .designathon-header-content > :nth-child(1) {
+    font-size: 6.2vw;
+    font-weight: 300;
+    font-family: "NeueMachinaRegular";
+    line-height: 0.95;
+  }
+  .designathon-header-content > :nth-child(2) {
+    font-size: 10.8vw;
+    font-family: "NeueMachinaUltrabold";
+    line-height: 0.95;
+  }
+  .designathon-header-content > .by-code {
+    font-size: 4vw;
+
+    line-height: 0.95;
+  }
+}
+
+.designathon-prize-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 3vw 7.3vw;
+  font-family: "NeueMachinaUltrabold";
+}
+
+.designathon-prize-wrapper > div > h3 {
+  color: white;
+  font-size: 3.1vw;
+}
+.designathon-prize-wrapper > div > h2 {
+  font-size: 6.2vw;
+  background: linear-gradient(180deg, #f7c301 0%, rgba(247, 195, 1, 0.5) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.designathon-prize-wrapper > :nth-child(2) > h2 {
+  font-size: 6.2vw;
+  background: linear-gradient(
+    180deg,
+    #565656 0%,
+    rgba(255, 255, 255, 0.7) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.timeline-designathon-wrapper-main {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
