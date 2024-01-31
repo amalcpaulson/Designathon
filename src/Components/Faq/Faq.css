@@ -1,0 +1,60 @@
+.faq-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.faq-header {
+  font-family: "NeueMachinaUltrabold";
+  font-size: 2vw;
+}
+
+.faq-container {
+  margin-top: 2vw;
+  width: 80vw;
+  color: white;
+  font-size: 1vw;
+
+  font-family: "NeueMachinaRegular";
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw 2vw;
+  border-top-right-radius: 50px;
+}
+.faq-text {
+  display: flex;
+  gap: 1vw;
+}
+
+.pop-up-faq {
+  font-family: "NeueMachinaRegular";
+  font-size: 1vw;
+
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  padding: 1vw 0.7vw 1vw 3vw;
+  background-color: white;
+  color: black;
+}
+.faq-container > div > a > img {
+  width: 2vw;
+}
+.pop-up-faq > a > img {
+  width: 2vw;
+}
+
+@media screen and (max-width: 500px) {
+  .faq-text > p {
+    display: none;
+  }
+  .pop-up-faq ,.faq-container{
+    font-size: 2vw;
+  }
+  .faq-container > div > a > img,.pop-up-faq > a > img  {
+  width: 2.8vw;
+}
+
+}

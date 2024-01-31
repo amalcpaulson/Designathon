@@ -133,7 +133,7 @@
     justify-self: right;
   }
   .designathon-header-dates {
-    width: 85vw;
+    width:100%;
   }
   .designathon-person-video > img {
     width: 90vw;
@@ -142,7 +142,7 @@
   }
   .home-designaton-left {
     justify-content: space-between;
-    width: 85vw;
+    width: 100%;
     padding: 8% 0% 8% 0vw;
   }
   .designathon-header-dates > div > h2 {
@@ -203,7 +203,7 @@
 }
 
 .designathon-theme > img {
-  width: 85vw;
+  width: 100%;
 }
 .designathon-theme-content {
   top: 30%;

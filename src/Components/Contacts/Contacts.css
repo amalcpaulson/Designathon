@@ -1,11 +1,11 @@
 .contacts-wrapper {
-  padding: 25px auto 0px auto;
+  padding: 25px 10vw 0px 10vw;
   align-items: center;
   justify-content: center;
   margin: 0%;
   margin-top: 80px;
   color: white;
-  width: 85vw;
+  width: 100%;
 }
 
 .contacts-wrapper > .heading-team {
@@ -20,7 +20,7 @@
 .contact-content-wrapper {
   display: flex;
   margin: 0%;
-  padding: 0%;
+  padding: 0% 10vw;
   margin-top: 0vw;
   justify-content: space-between;
   margin-bottom: 30px;
@@ -59,12 +59,12 @@
   background-color: #8b8b8b;
 }
 .copy-right-wrapper {
-  padding: 25px auto 0px auto;
+  padding: 25px 10vw 0px 10vw;
   align-items: center;
   justify-content: center;
   margin: 0%;
   color: white;
-  width: 85vw;
+  width: 100%;
   margin-bottom: 30px;
   font-family: "NeueMachinaRegular";
 }

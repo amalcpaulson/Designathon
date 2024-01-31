@@ -1,13 +1,13 @@
 import React from "react";
 import "./designathon.css";
 
-import Navbar from "../../components/navbar/Navbar";
-import CopyRight from "../../components/copyright/CopyRight";
-import Sponsors from "../../components/sponsors/sponsors";
-import theme_bg from "../../assets/designathon/designathon-theme-bg.png";
-import Timeline from "./timeline";
-import FAQ from "./FAQ-m";
-import Map from "./Mapcomponent";
+import Navbar from "../Navbar/Navbar";
+import CopyRight from "../Contacts/CopyRight";
+import Sponsors from "../Sponsors/Sponsors";
+import theme_bg from "../../assets/designathon-theme-bg.png";
+import Timeline from "../Timeline/Timeline";
+import FAQ from "../Faq/Faq-m";
+import Map from "../Map/Map";
 import Contacts from "../Contacts/Contacts";
 
 const Designathon = () => {
@@ -143,13 +143,7 @@ const Designathon = () => {
                 />
               </div>
             </div>
-            <div className="designathon-theme image-container">
-              <img src={theme_bg} alt="" />
-              <div className="designathon-theme-content foreground-image">
-                <p>THEME:</p>
-                <h3>**COMING SOON**</h3>
-              </div>
-            </div>
+       
             <div className="designathon-prize-wrapper">
               <div>
                 <h3>TITLE WINNER</h3>

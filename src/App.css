@@ -1,42 +1,37 @@
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+* {
+  scroll-behavior: smooth;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Set the width and color of the scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: #f5f5f5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Customize the track of the scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #171717;
 }
 
-.card {
-  padding: 2em;
+/* Customize the thumb of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #e30069;
+  border-radius: 0px;
+  height: 50px;
 }
 
-.read-the-docs {
-  color: #888;
+/* Customize the corner of the scrollbar */
+::-webkit-scrollbar-corner {
+  background-color: #f5f5f5;
 }
