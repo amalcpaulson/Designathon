@@ -12,7 +12,7 @@ import uparrow from "../../assets/pink-up-arrow.png";
 const sponsors = () => {
   return (
     <section id="sponsors">
-      <div className="contacts-wrapper" style={{marginBottom:"6vh"}}>
+      <div className="contacts-wrapper" style={{marginBottom:"7vh"}}>
         <div className="heading-team">
           <p>
             OUR <span className="text-color">SPONSORS</span>
