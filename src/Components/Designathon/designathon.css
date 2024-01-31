@@ -5,19 +5,20 @@
   align-items: center;
   justify-content: center;
   color: white;
-  width: 100vw;
+  width: 100%;
 }
 .home-designaton {
   display: flex;
   justify-content: space-between;
   padding-top: 1%;
+  width: 100%;
 }
 .home-designaton-left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50vw;
-  padding: 8% 0% 8% 7vw;
+  width: 50%;
+  padding: 8% 0% 8% 10vw;
   align-items: center;
 }
 .designathon-header-content {
@@ -37,13 +38,13 @@
 }
 .designathon-header-content > .by-code {
   font-size: 2.5vw;
-  margin-left: 30.2vw;
+  align-self: flex-end;
   font-family: "NeueMachinaRegular";
   line-height: 0.95;
 }
 .designathon-header-dates {
   display: flex;
-  width: 41vw;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -83,16 +84,15 @@
   .home-designaton-left > :nth-child(3) {
     position: fixed;
     bottom: 6%;
-    left: 35%;
+
     z-index: 9999;
   }
-  .designathon-header-dates>div>h2{
+  .designathon-header-dates > div > h2 {
     font-size: 3.5vw;
   }
- .designathon-header-dates>div>p{
+  .designathon-header-dates > div > p {
     font-size: 2.2vw;
   }
-
 }
 @media screen and (max-width: 1000px) {
   .designathon-wrapper-main {
@@ -103,20 +103,8 @@
   .designathon-wrapper-main {
     margin-top: 14.7vw;
   }
-  .home-designaton-left > :nth-child(3) {
-    position: fixed;
-    bottom: 6%;
-    left: 30%;
-    z-index: 9999;
-  }
+}
 
-}
-@media screen and (max-width: 600px) {
-  .home-designaton-left > :nth-child(3) {
-    bottom: 6%;
-    left: 25%;
-  }
-}
 @media screen and (max-width: 480px) {
   .designathon-wrapper-main {
     margin-top: 17.7vw;
@@ -126,24 +114,26 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .designathon-person-video > video {
-    width: 90vw;
+    width: 90%;
     height: auto;
     justify-self: right;
   }
   .designathon-header-dates {
-    width:100%;
+    width: 100%;
+    padding: 0px;
   }
   .designathon-person-video > img {
-    width: 90vw;
+    width: 90%;
     height: auto;
     justify-self: right;
   }
   .home-designaton-left {
     justify-content: space-between;
     width: 100%;
-    padding: 8% 0% 8% 0vw;
+    padding: 8% 5vw 8% 10vw;
   }
   .designathon-header-dates > div > h2 {
     font-size: 5.5vw;
@@ -153,6 +143,7 @@
   }
   .designathon-header-content {
     margin-bottom: 1.5vw;
+    align-self: flex-end;
   }
   .designathon-header-content > :nth-child(1) {
     font-size: 6.2vw;
@@ -167,54 +158,9 @@
   }
   .designathon-header-content > .by-code {
     font-size: 4vw;
-    margin-left: 66.9vw;
+
     line-height: 0.95;
   }
-  .home-designaton-left > :nth-child(3) {
-    bottom: 6%;
-    left: 20%;
-  }
-}
-@media screen and (max-width: 450px) {
-  .home-designaton-left > :nth-child(3) {
-    bottom: 6%;
-    left: 17%;
-  }
-}
-@media screen and (max-width: 420px) {
-  .home-designaton-left > :nth-child(3) {
-    bottom: 6%;
-    left: 13%;
-  }
-}
-@media screen and (max-width: 400px) {
-  .home-designaton-left > :nth-child(3) {
-    bottom: 6%;
-    left: 10%;
-  }
-}
-
-.designathon-theme {
-  margin-top: 4vw;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.designathon-theme > img {
-  width: 100%;
-}
-.designathon-theme-content {
-  top: 30%;
-  left: 15%;
-  font-family: "NeueMachinaUltrabold";
-}
-.designathon-theme-content > p {
-  font-size: 2.7vw;
-}
-.designathon-theme-content > h3 {
-  font-size: 5vw;
 }
 
 .designathon-prize-wrapper {
@@ -240,7 +186,11 @@
 }
 .designathon-prize-wrapper > :nth-child(2) > h2 {
   font-size: 6.2vw;
-  background: linear-gradient(180deg, #565656 0%, rgba(255, 255, 255, 0.7) 100%);
+  background: linear-gradient(
+    180deg,
+    #565656 0%,
+    rgba(255, 255, 255, 0.7) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

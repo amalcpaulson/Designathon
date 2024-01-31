@@ -103,6 +103,7 @@ const Designathon = () => {
             position: "absolute",
             left: "0",
             top: "0",
+            width:"100%"
           }}
         >
           <div className="designathon-wrapper-main">

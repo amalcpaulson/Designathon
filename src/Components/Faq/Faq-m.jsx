@@ -44,7 +44,7 @@ const Faq1 = () => {
       <div className="faq-header">
         <h1>FAQs</h1>
       </div>
-      <div style={{ display: "flex", flexDirection: "column" }}>
+      <div style={{ display: "flex", flexDirection: "column" ,width:"100%"}}>
         {faqArray.map(({ heading, dots, para }, i) => (
           <FAQ heading={heading} dots={dots} para={para} />
         ))}

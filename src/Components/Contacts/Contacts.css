@@ -182,15 +182,15 @@
     margin-top: 0px;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 100%;
   }
   .contact-email,
   .contact-phone {
-    width: 400px;
+    
     padding: 0px auto;
     display: flex;
   }
-  .contact-content-wrapper > div > div > p {
+  .contact-content-wrapper > div > div  p {
     font-size: 13px;
     width: fit-content;
   }
